@@ -1,0 +1,141 @@
+body{
+    background-image: url("bg22.jpg");
+    background-size:cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: black;
+    display:flex;
+    height: 45px;
+    position: fixed;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding:8px;
+    margin-right: 73px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+   
+}
+
+a:hover  {background-color:grey;
+    color: rgba(255, 0, 0, 0.76);
+}
+
+.logo{margin-left: 183px;
+    font-size: 73px;
+    font-style: oblique;
+    color: rgb(190, 189, 189);
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+@keyframes logo{
+    from{ color: white;
+
+    }
+    to{color: gray;
+
+    }
+}
+
+p{text-align: center;
+    font-size: 32px;
+    text-decoration:overline;
+
+}
+form{
+box-shadow: 5px 10px darkgray;
+    background-color:transparent;
+    backdrop-filter: blur(2px);
+    height:620px;
+    width: 490px;
+    margin-left: 85px;
+    margin-top: 64px;
+    text-align: center;
+    border: 1px solid gray;
+    color: white;
+    margin-bottom: 82px;
+    
+}
+input{
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    height: 34px;
+    width: 244px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: 10px;
+    color: white;
+    
+}
+h2{
+    color: rgb(241, 227, 199);
+    font-size: 32px;
+}
+button{
+    margin-top: 44px;
+    height: 44px;
+    width: 114px;
+    border-radius: 22px;
+}
+button:hover{
+    background-color:white;
+}
+#signup a{ 
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    
+}
+#reset input{height: 32px;
+width: 52px;    
+}
+#reset input:hover{
+    background-color: aqua;
+    color: black;
+}
+footer{
+        font-size: 25px;
+    background-color: black;
+    text-align: center;
+    padding: 18px;
+    margin: 20px;
+    margin-top: 500px;
+    color:whitesmoke;}
+    input:hover{
+color: bisque;
+text-align: justify;
+padding: 3px;
+font-size: 18px;
+    }
+    #boy{ text-align: center;
+        height: 52px;
+        width: 50vh;
+        font-size: 22px;
+        margin-left: 49px;
+        margin-top: 4px;
+
+    }
+    #girl{ text-align: center;
+        height: 52px;
+        width: 50vh;
+        font-size: 22px;
+    margin-left: 49px;
+margin-top: 4px;}
+  
+     #cp
+     {
+        margin-right: 55px;
+     }
+     #reset{ text-align: right;}
